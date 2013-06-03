@@ -1,0 +1,11 @@
+[
+	{ "caption": "-" },
+	{
+		"caption": "GAE.py - Create dev settings.",
+		"command": "create_python_gae_dev_settings", "args": { "paths": [] }
+	},
+	{
+		"caption": "GAE.py - Start dev server.",
+		"command": "start_gae_dev_server", "args": { "paths": [] }
+	}
+]
