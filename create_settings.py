@@ -2,7 +2,8 @@ import sublime, sublime_plugin
 
 import os
 
-skeleton = '''{
+skeleton = '''
+{
 	"sdk_path":				"/path/to/gae/python/sdk",
 	"options": {
 		"--host":			null,
@@ -24,7 +25,8 @@ skeleton = '''{
 		"--php_executable_path":	null,
 		"--php_remote_debugging":	null
 	}
-}'''
+}
+'''
 
 class CreatePythonGaeDevSettingsCommand(sublime_plugin.WindowCommand):
 
