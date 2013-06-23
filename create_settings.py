@@ -3,24 +3,24 @@ import sublime, sublime_plugin
 import os
 
 skeleton = '''{
-	"sdk_path":						"/path/to/gae/python/sdk",
+	"sdk_path":				"/path/to/gae/python/sdk",
 	"options": {
-		"--host":					null,
-		"--port":					null,
-		"--admin_host":				null,
-		"--admin_port":				null,
-		"--auto_id_policy":			null,
+		"--host":			null,
+		"--port":			null,
+		"--admin_host":			null,
+		"--admin_port":			null,
+		"--auto_id_policy":		null,
 		"--clear_datastore":		null,
-		"--datastore_path":			null,
-		"--storage_path":			null,
-		"--logs_path":				null,
-		"--log_level":				null,
+		"--datastore_path":		null,
+		"--storage_path":		null,
+		"--logs_path":			null,
+		"--log_level":			null,
 		"--require_indexes":		null,
 		"--enable_sendmail":		false,
-		"--smtp_host":				null,
-		"--smtp_post":				null,
-		"--smtp_user":				null,
-		"--smtp_password":			null,
+		"--smtp_host":			null,
+		"--smtp_post":			null,
+		"--smtp_user":			null,
+		"--smtp_password":		null,
 		"--php_executable_path":	null,
 		"--php_remote_debugging":	null
 	}
